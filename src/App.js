@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Booking from './components/Booking';
+import {Route, Routes} from 'react-router-dom';
+import TripDetails from './components/TripDetails';
+import MapComponent from './components/MapsComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar title = "nammayatri"/>
+    <Routes>
+      <Route path = "/" element = {<Booking/>}/>
+      <Route path = "/tripDetails" element = {<TripDetails/>}/>
+      <Route path = "/MapComponent" element = {<MapComponent/>}/>
+    </Routes>
+    </>
   );
 }
 
