@@ -32,7 +32,7 @@ function TripDetails() {
   return (
     <>
       <div className="container-fluid position-relative my-5 z-0">
-        <MapComponent currentLocation={location.state.currentLocation} destination={location.state.destination} />
+        <MapComponent currentLocation={location.state.currentLocation} destination={location.state.destination} booking={location.state.booking} />
       </div>
       <div className="container-fluid my-5 position-absolute z-1" style={{ transform: 'translateY(-40%)' }}>
         <div className="card border-warning" style={{ maxWidth: '5rem', height: '90px' }}>

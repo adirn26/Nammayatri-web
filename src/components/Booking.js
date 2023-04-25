@@ -3,7 +3,7 @@ import OfferList from './OfferList';
 import axios from 'axios';
 import { useState } from 'react';
 
-const staticBooking = [{ "name": "Ramesh", "timeAway": 10, "offerPrice": 70, "ratings": 4.0 , "lat": 13.074796409338758 , "lon": 77.56879850534327}, { "name": "Ganesh", "timeAway": 3, "offerPrice": 80, "ratings": 4.2, "lat": 13.074796409338758 , "lon": 77.56879850534327 }]
+const staticBooking = [{ "name": "Ramesh", "timeAway": 10, "offerPrice": 70, "ratings": 4.0 , "lat": 13.072570400806018 , "lon": 77.5663366582155}, { "name": "Ganesh", "timeAway": 3, "offerPrice": 80, "ratings": 4.2, "lat": 13.073035460586294  , "lon": 77.56259616553523 }]
 
 
 function Booking() {
