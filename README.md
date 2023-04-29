@@ -27,7 +27,7 @@ npm start
 <!-- ![](UI\Screenshot_20230428-131244_Chrome.jpg) ![](UI\Screenshot_20230428-131316_Chrome.jpg)
 ![](UI\Screenshot_20230428-131325_Chrome.jpg) -->
 <p float="left">
-  <img src="UI\Screenshot_20230428-131244_Chrome.jpg" width="100" />
-  <img src="UI\Screenshot_20230428-131316_Chrome.jpg" width="100" /> 
-  <img src="UI\Screenshot_20230428-131325_Chrome.jpg" width="100" />
+  <img src="UI\Screenshot_20230428-131244_Chrome.jpg" width="250" />
+  <img src="UI\Screenshot_20230428-131316_Chrome.jpg" width="250" /> 
+  <img src="UI\Screenshot_20230428-131325_Chrome.jpg" width="250" />
 </p>
