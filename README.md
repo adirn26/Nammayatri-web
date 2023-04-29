@@ -15,7 +15,7 @@ git clone https://github.com/<username>/Nammayatri-web.git
 ```
 2. Install the dependencies
 ```
-cd college-canteen
+cd Nammayatri-web
 npm install
 ```
 3. Start the React development server
